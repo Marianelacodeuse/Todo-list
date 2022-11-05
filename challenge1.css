@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    border: 2px solid black;
+    width: 50%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+.Tasks{
+    background-color: white ;
+    padding: 15px 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: relative;
+}
+
+.today{
+    /* height: 40px; */
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.504);
+
+}
+
+.today span{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.677) ;
+    font-weight: 400;
+}
+i{
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.544) ;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.todo-form{
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.504);
+}
+.todo-form input{
+    border: none;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.677) ;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+}
+.todo-form input:focus{
+    outline: none;
+}
+
+.file-list{
+    padding: 15px 15px;
+    /* margin-top: 10px; */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.504);
+}
+.file-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
